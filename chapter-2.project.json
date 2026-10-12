@@ -1,0 +1,124 @@
+{
+  "name": "try and sleep chapter 2",
+  "servePort": 34874,
+  "servePlaceIds": [
+    140272202634570
+  ],
+  "tree": {
+    "$className": "DataModel",
+    "ReplicatedStorage": {
+      "CutsceneCurves": {
+        "$path": "places/chapter-2/src/ReplicatedStorage/CutsceneCurves.luau"
+      },
+      "MegMoCutscenes": {
+        "$className": "Folder",
+        "walkintoofstoretoregister": {
+          "$className": "Folder",
+          "CutsceneData": {
+            "$path": "places/chapter-2/src/ReplicatedStorage/MegMoCutscenes/walkintoofstoretoregister/CutsceneData.luau"
+          },
+          "MegMoCutscenePlayer": {
+            "$path": "places/chapter-2/src/ReplicatedStorage/MegMoCutscenes/walkintoofstoretoregister/MegMoCutscenePlayer.luau"
+          },
+          "PlayLocalExample": {
+            "$path": "places/chapter-2/src/ReplicatedStorage/MegMoCutscenes/walkintoofstoretoregister/PlayLocalExample.client.luau",
+            "$properties": {
+              "Enabled": false
+            }
+          },
+          "PlayClientReceiver": {
+            "$path": "places/chapter-2/src/ReplicatedStorage/MegMoCutscenes/walkintoofstoretoregister/PlayClientReceiver.client.luau",
+            "$properties": {
+              "Enabled": false
+            }
+          },
+          "PlayServerTriggerExample": {
+            "$path": "places/chapter-2/src/ReplicatedStorage/MegMoCutscenes/walkintoofstoretoregister/PlayServerTriggerExample.server.luau",
+            "$properties": {
+              "Enabled": false
+            }
+          },
+          "READ ME": {
+            "$path": "places/chapter-2/src/ReplicatedStorage/MegMoCutscenes/walkintoofstoretoregister/READ ME.luau"
+          }
+        },
+        "cutscene1": {
+          "$className": "Folder",
+          "CutsceneData": {
+            "$path": "places/chapter-2/src/ReplicatedStorage/MegMoCutscenes/cutscene1/CutsceneData.luau"
+          },
+          "MegMoCutscenePlayer": {
+            "$path": "places/chapter-2/src/ReplicatedStorage/MegMoCutscenes/cutscene1/MegMoCutscenePlayer.luau"
+          },
+          "PlayLocalExample": {
+            "$path": "places/chapter-2/src/ReplicatedStorage/MegMoCutscenes/cutscene1/PlayLocalExample.client.luau",
+            "$properties": {
+              "Enabled": false
+            }
+          },
+          "PlayClientReceiver": {
+            "$path": "places/chapter-2/src/ReplicatedStorage/MegMoCutscenes/cutscene1/PlayClientReceiver.client.luau",
+            "$properties": {
+              "Enabled": false
+            }
+          },
+          "PlayServerTriggerExample": {
+            "$path": "places/chapter-2/src/ReplicatedStorage/MegMoCutscenes/cutscene1/PlayServerTriggerExample.server.luau",
+            "$properties": {
+              "Enabled": false
+            }
+          },
+          "READ ME": {
+            "$path": "places/chapter-2/src/ReplicatedStorage/MegMoCutscenes/cutscene1/READ ME.luau"
+          }
+        },
+        "walkoutofstorefromregister": {
+          "$className": "Folder",
+          "CutsceneData": {
+            "$path": "places/chapter-2/src/ReplicatedStorage/MegMoCutscenes/walkoutofstorefromregister/CutsceneData.luau"
+          },
+          "MegMoCutscenePlayer": {
+            "$path": "places/chapter-2/src/ReplicatedStorage/MegMoCutscenes/walkoutofstorefromregister/MegMoCutscenePlayer.luau"
+          },
+          "PlayLocalExample": {
+            "$path": "places/chapter-2/src/ReplicatedStorage/MegMoCutscenes/walkoutofstorefromregister/PlayLocalExample.client.luau",
+            "$properties": {
+              "Enabled": false
+            }
+          },
+          "PlayClientReceiver": {
+            "$path": "places/chapter-2/src/ReplicatedStorage/MegMoCutscenes/walkoutofstorefromregister/PlayClientReceiver.client.luau",
+            "$properties": {
+              "Enabled": false
+            }
+          },
+          "PlayServerTriggerExample": {
+            "$path": "places/chapter-2/src/ReplicatedStorage/MegMoCutscenes/walkoutofstorefromregister/PlayServerTriggerExample.server.luau",
+            "$properties": {
+              "Enabled": false
+            }
+          },
+          "READ ME": {
+            "$path": "places/chapter-2/src/ReplicatedStorage/MegMoCutscenes/walkoutofstorefromregister/READ ME.luau"
+          }
+        }
+      }
+    },
+    "StarterPlayer": {
+      "StarterPlayerScripts": {
+        "atmophere": {
+          "$path": "places/chapter-2/src/StarterPlayerScripts/atmophere.client.luau"
+        },
+        "Startmegmocutscene": {
+          "$path": "places/chapter-2/src/StarterPlayerScripts/Startmegmocutscene.client.luau"
+        },
+        "Tasksystem": {
+          "$path": "places/chapter-2/src/StarterPlayerScripts/Tasksystem.client.luau"
+        },
+        "Dialogue": {
+          "$path": "places/chapter-2/src/StarterPlayerScripts/Dialogue.client.luau"
+        }
+      }
+    }
+  }
+}

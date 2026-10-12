@@ -1,0 +1,39 @@
+{
+  "name": "try and sleep chapter 1",
+  "servePort": 34873,
+  "servePlaceIds": [88451914043309],
+  "tree": {
+    "$className": "DataModel",
+
+    "ServerScriptService": {
+      "NightLoop server": {
+        "$path": "places/chapter-1/src/ServerScriptService/NightLoop server.server.luau"
+      }
+    },
+
+    "StarterPlayer": {
+      "StarterPlayerScripts": {
+        "NightLoop client": {
+          "$path": "places/chapter-1/src/StarterPlayerScripts/NightLoop client.client.luau"
+        },
+        "Dialogue client": {
+          "$path": "places/chapter-1/src/StarterPlayerScripts/Dialogue client.client.luau"
+        },
+        "Cinimatic client": {
+          "$path": "places/chapter-1/src/StarterPlayerScripts/Cinimatic client.client.luau"
+        },
+        "Minigame client": {
+          "$path": "places/chapter-1/src/StarterPlayerScripts/Minigame client.client.luau"
+        }
+      },
+      "StarterCharacterScripts": {
+        "FirstPersonWalk": {
+          "$path": "places/chapter-1/src/StarterCharacterScripts/FirstPersonWalk.client.luau"
+        },
+        "Atmosphere client": {
+          "$path": "places/chapter-1/src/StarterCharacterScripts/Atmosphere client.client.luau"
+        }
+      }
+    }
+  }
+}

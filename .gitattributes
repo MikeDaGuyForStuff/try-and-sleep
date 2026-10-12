@@ -1,0 +1,4 @@
+# Keep LF line endings so Rojo syncs identical source into Studio on every OS
+* text=auto eol=lf
+*.rbxl binary
+*.rbxm binary
