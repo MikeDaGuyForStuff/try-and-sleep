@@ -20,6 +20,21 @@ Install the toolchain (Rojo is pinned in `rokit.toml`):
 rokit install
 ```
 
+### Syncing all three places (easiest)
+
+1. Open the three places in Roblox Studio.
+2. Double-click **`Start Rojo Sync.bat`** in this folder. It opens one window per place.
+3. In each Studio window, open **Plugins > Rojo**, type that place's port and click **Connect**:
+   lobby `34872`, chapter 1 `34873`, chapter 2 `34874`.
+
+Sync goes **one way: files to Studio.** Edit scripts in VS Code (or any editor) and they appear in Studio
+instantly. Edits typed into Studio's own script editor are **not** saved back to these files and get
+overwritten on the next sync.
+
+For VS Code autocomplete (luau-lsp), keep the sourcemap up to date with `rojo sourcemap --watch -o sourcemap.json`.
+
+### Syncing one place by hand
+
 Open the place in Roblox Studio, then start the Rojo server for it:
 
 ```bash
